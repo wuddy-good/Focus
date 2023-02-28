@@ -28,10 +28,10 @@
         }
     }
 }
-// @media (max-width: 500px){
-//     .button{
-//         width: 94px;
-//         height: 25px;
-//         font-size: 8px;
-//     }
-// }
+@media (max-width: 575px){
+    .button{
+        width: 94px;
+        height: 25px;
+        font-size: 8px;
+    }
+}

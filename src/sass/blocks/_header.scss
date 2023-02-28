@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     &__logo{
-        width: 250px;
+        max-width: 250px;
         img{
             width: 100%;
         }
@@ -52,13 +52,20 @@
         }
     }
 }
-// @media (max-width: 500px){
-//     .header{
-//         &__official{
-//             display: none;
-//         }
-//         &__phone{
-//             font-size: 11px;
-//         }
-//     }
-// }
+@media (max-width: 575px){
+    .header{
+        align-items: space-around;
+        &__official{
+            display: none;
+        }
+        &__phone{
+            font-size: 11px;
+        }
+        &__logo{
+            max-width: 195px;
+            img {
+                width: 75%;
+            }
+        }
+    }
+}
