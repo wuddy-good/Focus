@@ -9,3 +9,15 @@
         color: #FFFFFF;
     }
 }
+@media (max-width: 1200px){
+    .consultation{
+        &__dcr{
+            text-align: center;
+            
+        }
+
+    }
+}
+@media (max-width: 575px){
+
+}

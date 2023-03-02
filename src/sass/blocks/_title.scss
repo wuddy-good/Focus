@@ -12,14 +12,28 @@
         line-height: 54px;
     }
 }
+@media (max-width: 1200px){
+    .title{
+        text-align: center;
+    }
+}
 @media (max-width: 767px){
     .title{
         font-size: 26px;
+        &_left{
+            font-size: 27px;
+            line-height: 40px;
+        }
     }
 }
 @media (max-width: 575px){
     .title{
         font-size: 24px;
         line-height: 54px;
+        &_left{
+            text-align: center;
+            font-size: 23px;
+            line-height: 35px;
+        }
     }
 }
